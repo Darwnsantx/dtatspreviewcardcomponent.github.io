@@ -70,7 +70,7 @@ body {
     font-size: 1.6rem;
     letter-spacing: 1.4px;
     word-spacing: 1px;
-    padding-bottom: 0.1rem;
+    padding-bottom: 0.25rem;
 }
 
 .card-info h1 span {
@@ -81,7 +81,7 @@ body {
     color: var(--slightly-transparent-white);
     line-height: 1.7;
     font-size: 0.87rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     font-weight: 400;
     padding: 0 0.5rem;
 }
@@ -99,7 +99,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
     color: var(--soft-violet);
     font-size: 1.3rem;
     font-weight: bold;
@@ -107,7 +107,7 @@ ul {
  }
 
  .top-info {
-    padding-top: 2.5rem;
+    padding-top: 1.6rem;
  }
 
  ul li span {
@@ -119,6 +119,7 @@ ul {
  }
 
 .attribution { 
+    text-align: center;
     font-size: 15px; text-align: center; 
     color: var(--white);
     line-height: 1.4;
