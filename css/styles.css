@@ -3,7 +3,7 @@
 
 --very-dark-blue: hsl(233, 47%, 7%);
 --dark-desaturated-blue: hsl(244, 38%, 16%);
---soft-violet: hsl(277, 85%, 39%);
+--soft-violet: rgb(183, 75, 255);
 --white: hsl(0, 0%, 100%);
 --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
 --slightly-white-stat-headings: hsla(0, 0%, 100%, 0.6);
@@ -74,7 +74,7 @@ body {
 }
 
 .card-info h1 span {
-    color: hsl(277, 64%, 61%);
+    color: var(--soft-violet);
 }
 
 .card-info p {
@@ -100,7 +100,7 @@ ul {
     justify-content: center;
     flex-direction: column;
     padding-top: 1.2rem;
-    color: hsl(277, 64%, 61%);
+    color: var(--soft-violet);
     font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -121,6 +121,7 @@ ul {
 .attribution { 
     font-size: 15px; text-align: center; 
     color: var(--white);
+    line-height: 1.4;
 }
 
 .attribution a { 
@@ -151,7 +152,7 @@ ul {
         height: 313px;
         width: 383px;
         padding: 0;
-        margin: 5rem 7.9rem 4.3rem 4.3rem;
+        margin: 4.2rem 7.9rem 4.3rem 4.3rem;
     }
 
     .card-info h1 {
